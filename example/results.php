@@ -1,7 +1,7 @@
 <?php
 $wordListFile = "./files/words.txt";
 
-include "../php/search.list.php";
+require "../php/search.list.php";
 $ListSearch = new ListSearch();
 
 if (isset($_GET['q']) && isset($_GET['show'])) {
