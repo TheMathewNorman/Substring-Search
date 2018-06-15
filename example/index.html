@@ -1,23 +1,18 @@
 <html>
 <head>
     <title>Word Search</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 <body>
-    <div id="header">
-    </div>
-
     <div id="content">
         <form action="results.php" method="get">
             Search for: <input type="search" name="q" required><br>
             Show only words that:<br>
-            <input type="radio" name="show" value="contains" checked> Contains.<br>
-            <input type="radio" name="show" value="starts"> Starts with.<br>
-            <input type="radio" name="show" value="ends"> Ends with.<br>
+            <input type="radio" name="show" value="contains" checked> Contain<br>
+            <input type="radio" name="show" value="starts"> Start with<br>
+            <input type="radio" name="show" value="ends"> End with<br>
             <input type="submit" value="Search">
         </form>
-    </div>
-    
-    <div id="footer">
     </div>
 </body>
 </html>

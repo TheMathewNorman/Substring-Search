@@ -1,0 +1,27 @@
+body {
+    padding: 10px;
+}
+#content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+    #content input[type=search], #content input[type=submit], #content input[type=radio] {
+        padding: 4px;        
+    }
+
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: auto;
+    
+}
+.item {
+    padding: 5px 3px;
+}
+    .item:hover {
+        font-size: 1.5em;
+    }
