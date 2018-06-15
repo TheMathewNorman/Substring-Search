@@ -10,18 +10,18 @@ body {
         padding: 4px;        
     }
 
-
-#container {
+#result-info {
+    padding: 10px 30px;
+    font-size: 1.6em;
+}
+#result-container {
     width: 80%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     text-align: auto;
-    
+    font-size: 1.2em;
 }
 .item {
     padding: 5px 3px;
 }
-    .item:hover {
-        font-size: 1.5em;
-    }
