@@ -41,7 +41,7 @@ $resultArray = $ListSearch->searchTextList($listFileLocation, $substring, "ends"
 ```
 
 ## Author
-* **Mathew Norman** - *Initial Development* - [TheMathewNorman](https://github.com/TheMathewNorman)
+* **Mathew Norman** - [TheMathewNorman](https://github.com/TheMathewNorman)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
